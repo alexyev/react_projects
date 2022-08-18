@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F7FB;
+    margin-top: 30px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.start--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.start--title {
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    color: #293264;
+    font-weight: 700;
+}
+
+.start--description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #293264;
+}
+
+.start--btn {
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    width: 15%;
+    height: 8vh;
+}
+
+.question {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #293264;
+    font-size: 16px;
+}
+
+.answers--container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.answers {
+    border-radius: 8px;
+    border: 1px solid #4D5B9E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    min-width: 50px;
+}
+
+.quiz--answer--btn {
+    border: none;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 15%;
+    height: 8vh;
+}
+
+.quiz--score {
+    font-family: 'Inter', sans-serif;
+    color: #293264;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.quiz--footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz--again--btn {
+    border: none;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 150px;
+    height: 8vh;
+}
+
+.btn--container {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    background-color: #DBDEF0;
+    border: none;
+    height: 1px;
+    margin-bottom: 15px;
+}
