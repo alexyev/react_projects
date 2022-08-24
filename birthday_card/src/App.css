@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lavenderblush;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app--title {
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.list--container {
+  max-width: 40%;
+  margin: auto;
+  background-color: lightpink;
+  border-radius: 10px;
+}
+
+.list--inner--container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.list--info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  border-radius: 20px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.list--name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-right: 10px;
+}
+
+.list--age {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: darkslateblue;
+}
+
+.app--button {
+  border: none;
+  background-color: mediumvioletred;
+  color: white;
+  height: 5rem;
+  width: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+}
