@@ -1,0 +1,105 @@
+body {
+  background-color: whitesmoke;
+}
+
+.app--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app--no-tours-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+}
+
+.tours--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tours--title {
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.tours--underline {
+  background-color: #14A76c;
+  height: 0.2rem;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.tour--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 60%;
+  margin: auto;
+}
+
+.tour--image {
+  border-radius: 10px;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+.tour--topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.tour--name {
+  letter-spacing: -.7px;
+}
+
+.tour--price {
+  background-color: #14A76c;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.tour--description {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tour--read-more {
+  border: none;
+  background-color: transparent;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: blue;
+}
+
+.tour--btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #14A76c;
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app--no-tours {
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
