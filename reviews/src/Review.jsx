@@ -39,9 +39,9 @@ const Review = () => {
     }
 
     return (
-        <article>
+        <article className='review--container'>
             <div className="review--img-container">
-                <img src={image} alt={name} />
+                <img src={image} alt={name} className='review--img' />
             </div>
             <div className="review--info">
                 <h1 className='review--name'>{name}</h1>
@@ -51,12 +51,16 @@ const Review = () => {
                 <p className='review--quote'>{text}</p>
             </div>
             <div className="review--btn-container">
-                <button className='review--prev' onClick={prevPerson}>
-                    <FaChevronLeft />
-                </button>
-                <button className='review--next' onClick={nextPerson}>
-                    <FaChevronRight />
-                </button>
+                <a href='#'>
+                    <button className='review--prev' onClick={prevPerson}>
+                        <FaChevronLeft />
+                    </button>
+                </a>
+                <a href='#'>
+                    <button className='review--next' onClick={nextPerson}>
+                        <FaChevronRight />
+                    </button>
+                </a>
             </div>
             <button className='review--random' onClick={randomPerson}>Surprise Me!</button>
         </article>

@@ -6,11 +6,9 @@ function App() {
 
   return (
     <div className="app--container">
-      <div className="app--title">
-        <div className="app--underline">
-          <Review />
-        </div>
-      </div>
+      <h1 className='app--title'>Our Reviews</h1>
+      <div className="app--underline"></div>
+      <Review />
     </div>
   )
 }

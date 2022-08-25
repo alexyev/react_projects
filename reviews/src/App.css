@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavenderblush;
+}
+
+.app--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.app--title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: none;
+}
+
+.app--underline {
+    height: 5px;
+    width: 40%;
+    background-color: steelblue;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    margin-top: -20px;
+}
+
+.review--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.review--img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.review--img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.review--name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.review--job {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.5rem;
+    margin-top: -20px;
+}
+
+.review--quote {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -10px;
+    font-size: 1rem;
+}
+
+.review--prev {
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    background-color: steelblue;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+    height: 30px;
+    line-height: 32px;
+}
+
+.review--next {
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 5px;
+    background-color: steelblue;
+    color: white;
+    height: 30px;
+    line-height: 32px;
+}
+
+.review--random {
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding: 7px;
+    border: none;
+    background-color: steelblue;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+
+}
