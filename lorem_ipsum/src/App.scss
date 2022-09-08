@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.app--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    text-transform: capitalize;
+    color: rgb(4, 7, 32);
+    font-family: 'Karla', sans-serif;
+}
+
+.lorem-form {
+    font-family: 'Karla', sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-right: 10px;
+    max-width: 3rem;
+}
+
+button {
+    border: none;
+    background-color: rgb(4, 7, 32);
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms ease;
+    height: 1.5rem;
+    width: 5rem;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(4, 7, 32);
+    transition: all 0.3s ease;
+}
+
+.lorem-text {
+    width: 60%;
+    font-family: 'Inter', sans-serif;
+    font-size: .8rem;
+    margin-top: 1rem;
+    line-height: 1.2rem;
+}
